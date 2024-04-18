@@ -5,6 +5,8 @@ from app.home import bp
 
 
 GRAPH_DATA_REQ = {}
+SHOWCASE_INTERNAL_NAME = "showcase-internal.js"
+
 
 def openDirReadGraphReqs(path, pageId):
     for root, dirs, filenames in os.walk(path):
